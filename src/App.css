@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #F55A5A;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 2rem;
+  
+}
+
+.App-header h2 {
+  margin: 0;
+  padding: 10px;
+  font-weight: 500;
+  letter-spacing: -0.075em;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  min-width: 700px;
+  margin-bottom: 35px;
+  justify-content: center;
+}
+
+.left-side {
+  width: 30%
+  
+}
+
+.right-side {
+  width: 45%;
+  text-align: left;
+}
+
+.image {
+  width: 180px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+.country-gps {
+  display: flex;
+  width: 20rem;
+}
+
+.country-gps > p {
+  margin: 0 8px;
+}
+
+.right-side > h1 {
+  margin: 0;
+}
+
+.date {
+  display: flex;
+  color: #2B283A;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+
+.location {
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  font-weight: 400;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.google-maps {
+  color: #918E9B;
+  text-decoration-line: underline;
+  font-weight: 400;
+}
+
+.description > p{
+  font-weight: 400;
+  line-height: 15px
+}
+
+
+
+
+
+
